@@ -1,0 +1,58 @@
+<div class="container text-center">
+    <div class="text-center row">
+        <div class="p-2 col-3">
+            <a (click)="filter('')">
+                <img class="w-75" style="height: 200px;" src="https://i.postimg.cc/zX2fVptm/prod-1.jpg" alt="">
+                <h6>All Product</h6>
+            </a>
+        </div>
+        <div class="p-2 col-3">
+            <a (click)="filter(1)">
+                <img class="w-75" style="height: 200px;" src="https://i.postimg.cc/63MkYbGt/all-nike.webp" alt="">
+                <h6>Men</h6>
+            </a>
+        </div>
+        <div class="p-2 col-3">
+            <a (click)="filter(2)">
+                <img class="w-75" style="height: 200px;" src="https://i.postimg.cc/nrFJYXcj/women-3.webp" alt="">
+                <h6>Women</h6>
+            </a>
+        </div>
+        <div class="p-2 col-3">
+           <a (click)="filter(3)">
+            <img class="w-75" style="height: 200px;" src="https://i.postimg.cc/wMCkYmy3/kid-1.webp" alt="">
+            <h6>Kids</h6>
+           </a>
+        </div>
+    </div>
+</div>
+
+
+<section class="py-5 bg-secondary ">
+    <div class="container px-4 px-lg-5 mt-5">
+        <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+            <div *ngFor="let i of filterproduct | filter: searchkey:'productName'" class="col mb-5">
+                <div class="card h-100">
+                    <!-- Product image-->
+                    <img style="height: 300px;" class="card-img-top" src="{{i.ProductImage}}" alt="..." />
+                    <!-- Product details-->
+                    <div class="card-body p-4">
+                        <div class="text-center">
+                            <!-- Product name-->
+                            <h5 class="fw-bolder">{{i.productName}}</h5>
+                            
+                            <!-- Product price-->
+                            {{i.Price}}
+                        </div>
+                    </div>
+                    <!-- Product actions-->
+                    <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                        <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="product/view-product/{{i.id}}">View Product</a></div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+   
+</section>

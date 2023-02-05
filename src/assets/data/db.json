@@ -1,0 +1,124 @@
+{
+  "products": [
+    {
+      "id": 2,
+      "productName": "Air Max Terrascape 97",
+      "categoryId": 1,
+      "Description": "Men's Shoe",
+      "is_available": true,
+      "Price": "16000",
+      "ProductImage": "https://i.postimg.cc/YSMLK9h8/nike-2.webp",
+      "rating": "4.1",
+      "review": "4",
+      "warrenty": 2
+    },
+    {
+      "id": 3,
+      "productName": "Air Max 90",
+      "categoryId": 1,
+      "Description": "Men's Shoe",
+      "is_available": true,
+      "Price": 10795,
+      "ProductImage": "https://i.postimg.cc/zG1kdTYc/air-max.webp",
+      "rating": 4.4,
+      "review": 5,
+      "warrenty": 2
+    },
+    {
+      "id": 4,
+      "productName": "Air More Uptempo '96",
+      "categoryId": 1,
+      "Description": "Men's Shoe",
+      "is_available": true,
+      "Price": 9500,
+      "ProductImage": "https://i.postimg.cc/3x7gj7gM/Air.webp",
+      "rating": 4.4,
+      "review": 19,
+      "warrenty": 1
+    },
+    {
+      "id": 5,
+      "Price": "18400",
+      "productName": "Air Jordan 7 Retro",
+      "categoryId": "1",
+      "Description": "Men's Shoe",
+      "is_available": "true",
+      "rating": "4.4",
+      "review": "11",
+      "warrenty": "2",
+      "ProductImage": "https://i.postimg.cc/fLVtRpsr/Jord.webp"
+    },
+    {
+      "id": 6,
+      "productName": "Infinity React 3",
+      "categoryId": 2,
+      "Description": "Girl's Shoe",
+      "is_available": true,
+      "Price": 14000,
+      "ProductImage": "https://i.postimg.cc/Y0MpnX8S/women-2.webp",
+      "rating": 4.4,
+      "review": 7,
+      "warrenty": 2
+    },
+    {
+      "id": 7,
+      "productName": "Court Vision Alta",
+      "categoryId": 2,
+      "Description": "Girl's Shoe",
+      "is_available": true,
+      "Price": 15000,
+      "ProductImage": "https://i.postimg.cc/nrFJYXcj/women-3.webp",
+      "rating": 4.3,
+      "review": 5,
+      "warrenty": 2
+    },
+    {
+      "id": 8,
+      "productName": "Billie Eilish Air Force",
+      "categoryId": 2,
+      "Description": "Girl's Shoe",
+      "is_available": true,
+      "Price": 11900,
+      "ProductImage": "https://i.postimg.cc/kG1kQwpz/women-4.webp",
+      "rating": 4.4,
+      "review": 4,
+      "warrenty": 2
+    },
+    {
+      "id": 9,
+      "productName": "Dynamo Go SE",
+      "categoryId": 3,
+      "Description": "Kid's Shoe",
+      "is_available": true,
+      "Price": 3500,
+      "ProductImage": "https://i.postimg.cc/wMCkYmy3/kid-1.webp",
+      "rating": 4.4,
+      "review": 3,
+      "warrenty": 1
+    },
+    {
+      "id": 10,
+      "productName": "Jordan 23/7",
+      "categoryId": 3,
+      "Description": "Kid's Shoe",
+      "is_available": true,
+      "Price": 3900,
+      "ProductImage": "https://i.postimg.cc/GhnMfWkK/kid-2.webp",
+      "rating": 4.2,
+      "review": 5,
+      "warrenty": 1
+    },
+    {
+      "id": "11",
+      "productName": "Nike Air Max Alpha Trainer 5",
+      "categoryId": "1",
+      "Description": "Men's Shoe",
+      "is_available": "true",
+      "Price": "7400",
+      "ProductImage": "https://i.postimg.cc/s23z2LPk/nike-11.webp",
+      "rating": "4.2",
+      "review": "15",
+      "warrenty": "2"
+    }
+  ]
+}

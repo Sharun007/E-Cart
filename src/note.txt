@@ -1,0 +1,36 @@
+lazy loading technique - technique used to create pages which have more traffic or more loading time
+
+module creation 
+
+     ng g module modulename
+
+lazy loaded module creation
+
+    ng g module modulename --route modulename --module rootmodulename
+
+
+    npm i --save json-server   - to install json server
+
+    npx json-server --watch db.json --port 3000    - command to run json data
+
+
+    Men - 1
+    women - 2
+    kids - 3
+
+    access data from component path
+    ----------------------------------
+
+    ActivatedRoute  - class
+    params          - method
+
+
+
+    ng g pipe pipename  - command to create a pipe
+
+
+    BehaviourSubject in Angular
+    ---------------------------
+    - to share datas between different modules
+    
+    rxjs 
